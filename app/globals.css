@@ -24,3 +24,119 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* ==================================================
+   效率派全站字号统一
+   ================================================== */
+
+/* 全站正文稍微收紧 */
+html {
+  font-size: 15px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+/* 一级标题：Hero、知识库标题、文章标题 */
+main h1 {
+  font-size: clamp(2rem, 3.2vw, 2.75rem) !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.025em;
+}
+
+/* 二级标题：每个板块标题 */
+main h2 {
+  font-size: clamp(1.55rem, 2.2vw, 2rem) !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.015em;
+}
+
+/* 三级标题：卡片标题、文章小标题 */
+main h3 {
+  font-size: clamp(1.15rem, 1.5vw, 1.35rem) !important;
+  line-height: 1.45 !important;
+}
+
+/* 四级标题 */
+main h4 {
+  font-size: 1.05rem !important;
+  line-height: 1.5 !important;
+}
+
+/* 普通正文不要过大 */
+main p {
+  line-height: 1.75;
+}
+
+/* 首页和页面中的大号说明文字统一限制 */
+main .text-lg {
+  font-size: 1rem !important;
+}
+
+/* 超大字号全部压下来 */
+main .text-6xl,
+main .text-5xl {
+  font-size: clamp(2rem, 3.2vw, 2.75rem) !important;
+}
+
+main .text-4xl {
+  font-size: clamp(1.7rem, 2.5vw, 2.2rem) !important;
+}
+
+main .text-3xl {
+  font-size: clamp(1.45rem, 2vw, 1.8rem) !important;
+}
+
+main .text-2xl {
+  font-size: clamp(1.2rem, 1.5vw, 1.4rem) !important;
+}
+
+/* 手机端进一步控制 */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  main h1 {
+    font-size: 2rem !important;
+  }
+
+  main h2 {
+    font-size: 1.55rem !important;
+  }
+
+  main h3 {
+    font-size: 1.2rem !important;
+  }
+}
+ /* 知识文章：清除横向分割线 */
+article .border-t,
+article .border-b,
+article .border-y {
+  border-top-width: 0 !important;
+  border-bottom-width: 0 !important;
+}
+
+/* 清除列表项目之间的横线 */
+article .divide-y > :not([hidden]) ~ :not([hidden]) {
+  border-top-width: 0 !important;
+}
+
+/* 消息和任务区域改用轻微背景区分 */
+article .divide-y > * {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.025);
+  padding: 0.85rem 1rem;
+}
+
+/* AI能力对比区取消上下横线 */
+article .grid.border-y {
+  border-top-width: 0 !important;
+  border-bottom-width: 0 !important;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.025);
+  padding: 1.25rem;
+}
