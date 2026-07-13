@@ -1,9 +1,12 @@
-import CTA from "../components/home/CTA";
- import Header from "../components/Header";
+import FreeResources from "../components/FreeResources";
+import FeaturedKnowledge from "../components/FeaturedKnowledge";
+import CaseStudy from "../components/CaseStudy";
+ 
+import Header from "../components/Header";
 import Hero from "../components/Hero";
 import WhyChoose from "../components/home/WhyChoose";
-import ToolsSection from "../components/home/ToolsSection";
-import Footer from "../components/Footer";
+ 
+ 
 
 export default function Home() {
   return (
@@ -11,9 +14,11 @@ export default function Home() {
       <Header />
       <Hero />
       <WhyChoose />
-      <ToolsSection />
-      <CTA />
-      <Footer />
+      <CaseStudy />
+      <FreeResources />
+      <FeaturedKnowledge />
+       
+      
     </main>
   );
 }
