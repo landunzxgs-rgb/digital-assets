@@ -1,11 +1,11 @@
 export default function FeaturedKnowledge() {
   const articles = [
-    {
-      category: "AI 工作秘书",
-      title: "微信工作消息太多，如何用 AI 整理成待办？",
-      desc: "把零散聊天内容整理成今日必须、明日跟进和下一步动作。",
-      href: "#",
-    },
+   {
+  category: "AI 工作秘书",
+  title: "微信工作消息太多，我是怎么用 AI 把遗漏变成待办的",
+  desc: "记录我如何把零散客户消息、时间节点和未完成事项整理成持续跟进的工作清单。",
+  href: "/knowledge/article1",
+},
     {
       category: "AI 办公",
       title: "如何用 AI 整理企业申报资料？",

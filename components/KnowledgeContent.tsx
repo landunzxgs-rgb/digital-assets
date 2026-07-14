@@ -14,11 +14,11 @@ const categories = [
 
 const articles = [
   {
-    category: "AI 工作秘书",
-    title: "微信工作消息太多，如何用 AI 整理成待办？",
-    desc: "把零散聊天内容整理成今日必须、明日跟进和下一步动作，减少工作遗漏。",
-    href: "/knowledge/article1",
-  },
+  category: "AI 工作秘书",
+  title: "微信工作消息太多，我是怎么用 AI 把遗漏变成待办的",
+  desc: "从靠记忆和纸笔，到用 AI 持续整理客户事项、时间节点、收付款和未完成任务。",
+  href: "/knowledge/article1",
+},
   {
     category: "AI 办公",
     title: "如何用 AI 整理企业申报资料？",
