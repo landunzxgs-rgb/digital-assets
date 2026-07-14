@@ -19,36 +19,7 @@ const articles = [
   desc: "从靠记忆和纸笔，到用 AI 持续整理客户事项、时间节点、收付款和未完成任务。",
   href: "/knowledge/article1",
 },
-  {
-    category: "AI 办公",
-    title: "如何用 AI 整理企业申报资料？",
-    desc: "从资料分类、缺失检查到任务清单，让复杂资料整理更清楚。",
-    href: "#",
-  },
-  {
-    category: "内容生产",
-    title: "一条视频，如何适配多个内容平台？",
-    desc: "同一个核心内容，分别适配抖音、小红书、视频号和深度文章。",
-    href: "#",
-  },
-  {
-    category: "AI 自动化",
-    title: "哪些重复工作值得优先自动化？",
-    desc: "优先处理高频、规则明确、容易出错的工作，提高投入产出比。",
-    href: "#",
-  },
-  {
-    category: "数字产品",
-    title: "如何把工作经验做成可销售的数字产品？",
-    desc: "把模板、提示词、方法和案例沉淀成可以重复交付的产品。",
-    href: "#",
-  },
-  {
-    category: "效率系统",
-    title: "为什么学了很多 AI 工具，工作还是没有变轻松？",
-    desc: "真正的问题往往不是工具不够，而是没有建立稳定的工作流程。",
-    href: "#",
-  },
+  
 ];
 
 export default function KnowledgeContent() {

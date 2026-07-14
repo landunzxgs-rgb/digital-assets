@@ -6,18 +6,7 @@ export default function FeaturedKnowledge() {
   desc: "记录我如何把零散客户消息、时间节点和未完成事项整理成持续跟进的工作清单。",
   href: "/knowledge/article1",
 },
-    {
-      category: "AI 办公",
-      title: "如何用 AI 整理企业申报资料？",
-      desc: "从资料分类、缺失检查到任务清单，减少重复整理。",
-      href: "#",
-    },
-    {
-      category: "内容生产",
-      title: "一条视频，如何适配多个内容平台？",
-      desc: "同一个核心内容，分别适配抖音、小红书、视频号和长文章。",
-      href: "#",
-    },
+    
   ];
 
   return (
