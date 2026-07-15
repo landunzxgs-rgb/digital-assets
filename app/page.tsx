@@ -1,6 +1,5 @@
 import FreeResources from "../components/FreeResources";
 import FeaturedKnowledge from "../components/FeaturedKnowledge";
-import CaseStudy from "../components/CaseStudy";
  
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -14,7 +13,7 @@ export default function Home() {
       <Header />
       <Hero />
       <WhyChoose />
-      <CaseStudy />
+       
       <FreeResources />
       <FeaturedKnowledge />
        
